@@ -1,0 +1,20 @@
+.header {
+    width: 100%;
+    background-color: aqua;
+    padding: 50px;
+    border-bottom: 1px solid #000;
+}
+
+.menu {
+    margin:0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 50px;
+}
