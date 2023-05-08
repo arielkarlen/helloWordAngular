@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent {
-
+  public image:string="https://m.media-amazon.com/images/I/917-4I7qNfL._CR0,325,1735,1735_UX256.jpg"
+  public Titulo:string = "Titulo de la card"
 }
