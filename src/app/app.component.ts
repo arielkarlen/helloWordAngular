@@ -26,9 +26,9 @@ export class AppComponent implements OnInit{
 
   ngOnInit(): void {
     this.ArregloTarjetas = [
-      {titulo:"Video 1", subtitulo: "Subtitulo video 1", image:"http://images.gofreedownload.net/the-lord-of-the-rings-the-battle-for-middle-earth-ii-addon-30286.jpg"},
-      {titulo:"Video 2", subtitulo: "Subtitulo video 2", image: "http://images.gofreedownload.net/the-lord-of-the-rings-the-battle-for-middle-earth-ii-29163.jpg"},
-      {titulo:"Video 3", subtitulo: "Subtitulo video 3", image:"http://images.gofreedownload.net/the-lord-of-the-rings-conquest-37993.jpg"}
+      {titulo:"Video 1", subtitulo: "Subtitulo video 1", image:"https://us.123rf.com/450wm/rarityassetclub/rarityassetclub2301/rarityassetclub230101243/197147257-representaci%C3%B3n-3d-de-un-oso-pardo-parado-en-un-lago-congelado-al-atardecer.jpg?ver=6"},
+      {titulo:"Video 2", subtitulo: "Subtitulo video 2", image: "https://cdn0.bioenciclopedia.com/es/posts/2/0/1/oso_grizzly_102_600.jpg"},
+      {titulo:"Video 3", subtitulo: "Subtitulo video 3", image:"https://okdiario.com/img/2019/06/22/osos-pardos.jpg"}
     ]
 
     this.MenuList =[
