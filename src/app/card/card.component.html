@@ -1,9 +1,10 @@
 <div class="card">
     <!-- Property Binding -->
-    <img class="image" [src]="image" alt="">
+    <!-- <img class="image" [src]="dataEntrante.image" alt=""> -->
+    <img class="image" [src]="dataEntrante.image" alt="">
     <div class="wrapper-text">
         <!-- Interpolacion -->
-        <div class="title">{{Titulo}}</div>
-        <div class="sub-title">Mi Card</div>
+        <div class="title">{{dataEntrante.titulo}}</div>
+        <div class="sub-title">{{dataEntrante.subtitulo}}</div>
     </div>
 </div>
